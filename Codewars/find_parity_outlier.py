@@ -10,7 +10,7 @@ def find_outlier(integers):
                 return integers[x]
 
     if integers[0]%2 != integers[1]%2:
-        if integers[0]%2 == 1 and integers[2]%2 == 1:
+        if integers[1]%2 == 1 and integers[2]%2 == 1:
             for x in range(len(integers)):
                 if integers[x] % 2 == 0:
                     return integers[x]
